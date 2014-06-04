@@ -55,8 +55,6 @@ int			ft_handle_key(char key[4], t_cmd_line *line, t_historic *hist)
 {
 	if (KEY_RET)
 		return (0);
-	else if (KEY_TAB)
-		ft_completion(line);
 	else if (KEY_SHIFT)
 		ft_shift(line);
 	else if (line->sel_mode)

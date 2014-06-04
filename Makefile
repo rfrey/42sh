@@ -27,8 +27,7 @@ SRC = main.c builtin.c builtin_exit.c builtin_env.c builtin_cd.c \
 		clipboard.c signal.c selection.c selection2.c line_move2.c \
 		parse.c parse2.c parse_rule.c parse_rule_cmd.c tree.c \
 		check_quote.c build_cmd.c generate_tree.c resolve_tree.c \
-		resolve_tree_cmd.c redir.c builtin_echo.c global.c builtin_cd2.c \
-		completion.c completion2.c completion3.c completion4.c
+		resolve_tree_cmd.c redir.c builtin_echo.c global.c builtin_cd2.c
 
 OBJ = $(patsubst %.c, $(PATH_OBJ)/%.o, $(SRC))
 
